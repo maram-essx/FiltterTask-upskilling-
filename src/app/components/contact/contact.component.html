@@ -1,0 +1,110 @@
+<section class="w-100 bg-white mx-auto py-5  ">
+
+<div class="section-title  py-5">
+      <h2 class="title ">contact us</h2>
+    </div>
+
+  <div class="my-form w-50 mx-auto py-4 px-5 ">
+    <div class="row">
+
+        <div class=" my-inputs col-md-6  py-3">
+        <form
+          (ngSubmit)="sendContactData(contactForm)"
+          [formGroup]="contactForm"
+        >
+          <input
+            formControlName="name"
+            type="text"
+            name="name"
+            id="name"
+            class="form-control mb-3"
+            placeholder="name"
+          />
+          <div
+            *ngIf="
+              contactForm.get('name')?.errors &&
+              contactForm.get('name')?.touched
+            "
+            class="alert alert-danger"
+          >
+            <p
+              *ngIf="contactForm.get('name')?.getError('required')"
+              class="m-0"
+            >
+              name is required
+            </p>
+          </div>
+
+          <input
+            formControlName="email"
+            type="text"
+            name="email"
+            id="email"
+            class="form-control mb-3"
+            placeholder="email"
+          />
+          <div
+            *ngIf="
+              contactForm.get('email')?.errors &&
+              contactForm.get('email')?.touched
+            "
+            class="alert alert-danger"
+          >
+            <p
+              *ngIf="contactForm.get('email')?.getError('required')"
+              class="m-0"
+            >
+              email is required
+            </p>
+          </div>
+
+          <input
+            formControlName="phone"
+            type="tel"
+            name="phone"
+            id="phone"
+            class="form-control mb-3"
+            placeholder="phone"
+          />
+
+          <div
+            *ngIf="
+              contactForm.get('phone')?.errors &&
+              contactForm.get('phone')?.touched
+            "
+            class="alert alert-danger"
+          >
+            <p
+              *ngIf="contactForm.get('phone')?.getError('required')"
+              class="m-0"
+            >
+              phone is required
+            </p>
+            <p
+              *ngIf="contactForm.get('phone')?.getError('pattern')"
+              class="m-0"
+            >
+              phone must start with 01
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-md-3 m-auto px-1">
+              <button type="submit" class="mybtn">send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-6 py-4">
+        <div class="info px-4 py-4">
+          <img class="px-4" src="../../../assets/images/iconmail.svg" alt="" />
+          <span>upskilling.eg1@gmail.com</span>
+        </div>
+        <div class="info px-4">
+          <img class="px-4" src="../../../assets/images/iconphone.svg" alt="" />
+          <span>+20 115 493 2137</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

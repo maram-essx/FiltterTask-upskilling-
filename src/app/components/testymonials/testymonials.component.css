@@ -1,0 +1,151 @@
+h4
+{
+  width: 147px;
+height: 22px;
+top: 840px;
+left: 141px;
+gap: 0px;
+opacity: 0px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 22px;
+text-align: left;
+color:  #6D91EE;
+
+}
+
+
+h2{
+ color:  #6D91EE;
+}
+.mycard{
+  border: 1px solid ;
+   border-color: #6D91EE;
+  border-radius: 30px;
+  overflow: hidden;
+background-color: white;
+
+}
+.star{
+  width: 80px;
+}
+
+
+/**/
+
+.title {
+  color: #7496f3;
+  font-size: 40px;
+  position: relative;
+  font-family: Poppins;
+font-size: 64px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 67%;
+  bottom: 80%;
+  width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(135deg);
+}
+.title::before {
+  content: "";
+  position: absolute;
+  right: 67%;
+  bottom: 90%;
+   width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(-135deg);
+}
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 67%;
+  top: 65%;
+   width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(50deg);
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  right: 67%;
+  top: 65%;
+  width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(-50deg);
+}
+@media only screen and (max-width: 1220px) and (min-width: 769px) {
+.title {
+  color: #7496f3;
+
+  position: relative;
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+
+}
+@media only screen and (max-width: 768px) and (min-width: 545px) {
+.title {
+  color: #7496f3;
+
+  position: relative;
+  font-family: Poppins;
+font-size: 25px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+.info-test{
+  margin: 40px;
+  width: 70%;
+}
+}
+@media only screen and (max-width: 544px) and (min-width: 320px) {
+.title {
+  color: #7496f3;
+
+  position: relative;
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+}
+@media only screen and (max-width: 382px) and (min-width: 211px) {
+.title {
+  color: #7496f3;
+
+  position: relative;
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+}
+}

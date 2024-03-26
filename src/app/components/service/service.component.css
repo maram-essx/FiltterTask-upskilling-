@@ -1,0 +1,152 @@
+.card-body {
+  padding: 20px;
+  overflow: hidden;
+}
+.service {
+  background-color: #f5f5f5;
+}
+.my-card {
+  border-radius: 40px;
+}
+
+.card-body h5 {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 24px;
+  text-align: left;
+  color: #324473;
+}
+
+.card-body p {
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: #324473;
+}
+
+
+.hbtn {
+
+  margin-top: 30px;
+  padding: 15px 40px;
+  color: aliceblue;
+  font-size: 14px;
+  background-color: #5180f6;
+  border: none;
+  border-radius: 50px;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+}
+/**/
+.title {
+  color: #7496f3;
+  font-size: 40px;
+  position: relative;
+  font-family: Poppins;
+font-size: 64px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 60%;
+  bottom: 80%;
+  width: 2px;
+  height: 35px;
+  background-color: #7496f3;
+  transform: rotate(135deg);
+}
+.title::before {
+  content: "";
+  position: absolute;
+  right: 60%;
+  bottom: 80%;
+   width: 2px;
+  height: 35px;
+  background-color: #7496f3;
+  transform: rotate(-135deg);
+}
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 60%;
+  top: 65%;
+   width: 2px;
+  height: 35px;
+  background-color: #7496f3;
+  transform: rotate(50deg);
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  right: 60%;
+  top: 65%;
+  width: 2px;
+  height: 35px;
+  background-color: #7496f3;
+  transform: rotate(-50deg);
+}
+
+@media only screen and (max-width: 768px) and (min-width: 545px) {
+.title {
+  color: #7496f3;
+
+  position: relative;
+  font-family: Poppins;
+font-size: 25px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+
+
+}
+@media only screen and (max-width: 544px) and (min-width: 320px) {
+.title {
+  color: #7496f3;
+  position: relative;
+  font-family: Poppins;
+font-size: 30px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+
+
+}
+
+
+@media only screen and (max-width: 382px) and (min-width: 211px) {
+.title {
+color: #7496f3;
+
+position: relative;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+}
+
+
+
+
+

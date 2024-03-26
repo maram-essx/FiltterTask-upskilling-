@@ -1,0 +1,197 @@
+
+/**/
+
+.title {
+  color: #7496f3;
+  font-size: 40px;
+  position: relative;
+  font-family: Poppins;
+font-size: 64px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+.title::after {
+  content: "";
+  position: absolute;
+  left: 67%;
+  bottom: 80%;
+  width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(135deg);
+}
+.title::before {
+  content: "";
+  position: absolute;
+  right: 67%;
+  bottom: 90%;
+   width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(-135deg);
+}
+.section-title {
+  position: relative;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 67%;
+  top: 65%;
+   width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(50deg);
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  right: 67%;
+  top: 65%;
+  width: 2px;
+  height: 45px;
+  background-color: #7496f3;
+  transform: rotate(-50deg);
+}
+
+/***/
+.mybtn{
+
+  border:solid 2px;
+ border-color: #5180F6;
+border-radius: 50px;
+padding: 5px 40px;
+
+background-color: #ffff;
+
+}
+input{
+  background-color: #CEDCFF;
+  border-radius: 50px;
+  width: 100%;
+}
+
+
+.info span{
+  color: #333333;
+  width: 186px;
+height: 24px;
+top: 1652px;
+left: 72px;
+gap: 0px;
+opacity: 0px;
+font-family: Abel;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.84px;
+text-align: left;
+
+}
+
+@media only screen and (max-width: 544px) and (min-width: 320px) {
+
+
+
+  .my-form{
+    width: 100%;
+
+  }
+.title {
+  color: #7496f3;
+  position: relative;
+  font-family: Poppins;
+font-size: 25px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+input{
+  background-color: #CEDCFF;
+  border-radius: 50px;
+  width: 200px;
+}
+.mybtn{
+
+  border:solid 2px;
+ border-color: #5180F6;
+border-radius: 50px;
+padding: 4px 28px;
+background-color: #ffff;
+
+
+
+}
+
+.my-inputs  {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px;
+  margin-left: 10px;
+
+
+
+}
+.info{
+ display: flex;
+ justify-content: center;
+
+}
+}
+
+
+
+@media only screen and (max-width: 382px) and (min-width: 211px) {
+.title {
+  color: #7496f3;
+  font-size: 30px;
+  position: relative;
+  font-family: Poppins;
+font-size: 34px;
+font-weight: 900;
+line-height: 89.5px;
+text-align: center;
+
+
+}
+input{
+  background-color: #CEDCFF;
+  border-radius: 50px;
+  width: 200px;
+}
+.mybtn{
+
+  border:solid 2px;
+ border-color: #5180F6;
+border-radius: 50px;
+padding: 4px 28px;
+
+background-color: #ffff;
+
+
+
+}
+
+.my-inputs  {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px;
+  margin-left: 10px;
+
+
+
+}
+.info{
+ display: flex;
+ justify-content: center;
+
+}
+}

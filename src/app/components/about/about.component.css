@@ -1,0 +1,103 @@
+.about {
+  margin-top: 30px;
+  background-image: url(src/assets/images/backgroundabout.jpg);
+  background-size: 100% 100%;
+  height: 85vh;
+  width: 100%;
+}
+.bg-img {
+  width: 65%;
+  height: 85vh;
+  background-image: url(src/assets/images/Vector8.png);
+  background-size: 100% 100%;
+  /* background-blend-mode: overlay; */
+}
+.about-us h2 {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 900;
+  /* line-height: 89.5px; */
+  text-align: left;
+}
+.about-us p {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 700;
+  /* line-height: 24px; */
+  text-align: left;
+}
+.about-us img {
+  width: 250px;
+}
+.hbtn {
+  margin-top: 80px;
+  margin-left: -100px;
+
+  padding: 10px 35px;
+  color: #515151;
+  font-size: 13px;
+  background-color: #eec04b;
+  border: none;
+  border-radius: 50px;
+  font-family: "Poppins";
+}
+.Where {
+  height: 80vh;
+  margin-left: 100px;
+  width: 100%;
+}
+
+.Where h2 {
+  font-family: Poppins;
+
+  font-size: 30px;
+  font-weight: 900;
+  /* line-height: 89.5px; */
+  text-align: left;
+}
+.Where p {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 700;
+  /* line-height: 24px; */
+  text-align: left;
+}
+@media only screen and (max-width: 800px) and (min-width: 769px) {
+  .about {
+    height: 90vh;
+  }
+  .bg-img {
+    width: 65%;
+    height: 90vh;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 545px) {
+  .about {
+    height: 130vh;
+  }
+  .bg-img {
+    width: 65%;
+    height: 130vh;
+  }
+}
+@media only screen and (max-width: 544px) and (min-width: 320px) {
+  .about {
+    height: 135vh;
+  }
+  .bg-img {
+    width: 65%;
+    height: 135vh;
+  }
+}
+@media only screen and (max-width: 382px) and (min-width: 211px) {
+  .about {
+    height: 135vh;
+  }
+  .bg-img {
+    width: 65%;
+    height: 135vh;
+  }
+  .about-us img {
+  width: 150px;
+}
+}
